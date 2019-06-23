@@ -17,15 +17,17 @@ microcontrollers. The idea came while researching onto some nice electronic synt
 I realized that could be really benefical if there'd be a way to solve the hardware and software implementation separately.
 
 ## Features
-This repo contains the Synthesizer Scheme and Engine Scheme as well as two separated engines in two branches:
+This repo contains the Synthesizer Scheme and Engine Scheme.
 
 branch **master**: Synthesizer Scheme and Engine Scheme virtual classes only - no implementation whatsoever.
 
-branch **alsa_linux**: An ALSA-BASED PC/Linux Synthesizer Engine for Synthesis Architecture testing.
+## Check out some flexYnth implementation examples!
 
-branch **discovery_f4**: A ST Microelectronics Discovery STM32F407 Board Engine for Synthesis Architecture implementation.
+[bfreeOrgan2](https://github.com/fcaspe/bfreeOrgan2): A Tonewheel Organ Synthesizer
 
-## Usage Examples
+**SOON:** A BASIC MULTI-PLATTFORM MONO-SYNTH EXAMPLE!
+
+## How to use this library as-is
 
 - Provided we have a completed **Synthesizer Engine** developed and tested for a specific HW/OS plattform
 (i.e.: Arduino box, Custom PCB, PC running Linux) we can implement any existing **Synthesis Architecture** on it.
@@ -44,10 +46,6 @@ You can take advantage of the existing **Linux Engine** for testing purposes.
 
 ![](img/4.png)
 <center> **ALSA/Linux Engine allows for out-of-board Architecture debugging.** </center>
-
-## Check out some flexYnth implementation examples!
-
-**bfreeOrgan2**: A Tonewheel Organ Synthesizer
 
 ## License
 
